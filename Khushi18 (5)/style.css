@@ -1,0 +1,39 @@
+nav {
+    background-color: #333;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.container img {
+    max-width: 100%;
+    height: auto;
+    margin-right: 20px;
+}
+
+.container p {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.container{
+    display: flex;
+}
